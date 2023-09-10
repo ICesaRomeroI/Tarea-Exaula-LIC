@@ -44,6 +44,7 @@ nav{
 }
 #menu li {
     margin-right: 20px; /* Espaciado entre los elementos del menú */
+
 }
 
 #menu li:last-child {
@@ -140,6 +141,14 @@ section{
     background-color: #d8af97;
     color: white;
 }
+.noticia{
+    margin: 2% 2% 2% 2%;
+    flex: 0 0 46%; /* Ancho del 50% para que haya 2 elementos por fila */
+    border: 1px solid #d8af97; /* Agrega un borde para separar los elementos */
+    position: relative;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
 
   /* Pagina Integrantes */
 .integrantes{
@@ -162,6 +171,8 @@ section{
     text-align: left;
     
 }
+
+
 .int{
     margin: 2% 2% 2% 2%;
     flex: 0 0 46%; /* Ancho del 50% para que haya 2 elementos por fila */
@@ -284,7 +295,8 @@ section{
 
 @media (min-width: 1367px) {
     .footerc {
-        background-color: rgba(210, 190, 173, 0.3);
+       /* background-color: rgba(210, 190, 173, 0.3);*/
+       background-color:greenyellow;
     color: black; 
     text-align: center;
     padding: 10px;
@@ -296,13 +308,17 @@ section{
 }
 @media (min-width: 530px) and ( max-width: 1366px) {
     .footerc {
-        background-color: rgba(210, 190, 173, 0.3);
-    color: black; 
+        /*background-color: rgba(210, 190, 173, 0.3);*/
+        background-color:blue;
+        color: black; 
     text-align: center;
     padding: 10px;
     position: absolute;
     width: 100%; /* Ancho completo */
       }     
+    
+    
+}  
     
 }
 @media (min-width: 1200px) and ( max-width: 1366px) {
