@@ -294,10 +294,10 @@ p.pnoti{margin: 4%;}
 /*************************** Responsive ****************************/
 @media (min-width: 1367px) {
     .footerc {
-        background-color:greenyellow;
+        
         color: black; 
         text-align: center;
-        /* background-color: rgba(210, 190, 173, 0.3);*/       
+        background-color: rgba(210, 190, 173, 0.3);     
     }
     h1{font-size: 4em}
     #menu a {font-size: 2.5em;
@@ -307,14 +307,15 @@ p.pnoti{margin: 4%;}
 }
 @media (min-width: 530px) and ( max-width: 1366px) {
     .footerc {
-        /*background-color: rgba(210, 190, 173, 0.3);*/
-        background-color:blue;
+        background-color: rgba(210, 190, 173, 0.3);
+        
         text-align: center;
         padding: 10px;
         position: absolute;
         width: 100%; /* Ancho completo */
         color: black; 
     }  
+    h1{font-size: 3em}
 }
       
 @media (min-width: 1200px) and ( max-width: 1366px) {
@@ -383,6 +384,14 @@ p.pnoti{margin: 4%;}
         font-weight: bold;
         transition: color 0.3s;
         background-color:#e4fbfb;
+    }
+    .event {
+        border: 10px double #d8af97;
+        padding: 10px;
+        margin: 10px;
+        width: 45%;
+        
+        overflow: hidden;
     }
 
 }
@@ -456,8 +465,22 @@ p.pnoti{margin: 4%;}
     .noticia p{font-size: 15px;}
     #menu a{font-size: 20px;}
     h1{font-size: 20px;}
+    .event {
+        border: 10px double #d8af97;
+        padding: 10px;
+        margin: 10px auto;
+        width: 80%;
+        
+        overflow: hidden;
+    }
+    #historia{overflow: hidden;}
+
+
 }
 
 header{background-color: #ecd6c0;}
 div{background-color: white;
 border: black solid 2px;}
+
+.noticia{overflow: hidden;}
+#vid{overflow: scroll;}
